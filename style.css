@@ -1,0 +1,94 @@
+body {
+    background: #B0E0E6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+header {
+    background-color: #F5F5DC;
+    color: #007f33;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header div{
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a{
+    text-decoration: none;
+    font: 1em sans-serif;
+    color: rgb(255, 42, 78);
+}
+
+section {
+    /* display: flex; */
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+#projects,#about{
+    display: grid;
+    place-items: center;
+}
+
+.project-card {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px;
+    padding: 15px;
+    margin: 20px 0;
+    color: #000;
+}
+
+.project-card .text{
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+h1,h2 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+section div img{
+    height: 150px;
+    width: 200px;
+}
+
+footer{
+    font-size: 12px;
+}
+
+#resources a img{
+    height: 250px;
+    width: 200px;
+    margin: 50px;
+}
