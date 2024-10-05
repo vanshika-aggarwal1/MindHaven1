@@ -6,11 +6,31 @@ body {
     line-height: 1.6;
     color: #fff;
 }
+body {
+        overflow: hidden;
+        background-color: #282c34;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50 px;
+        }
+
+.confetti {
+        position: absolute;
+        width: 10 px;
+        height: 10 px;
+        background-color: red;
+        opacity: 0.7;
+        animation: fall 3s infinite;
+        }
+
+    </style>
+
 
 header {
     background-color: #F5F5DC;
     color: #007f33;
-    padding: 10px 0;
+    padding: 10 px 0;
     text-align: center;
 }
 
@@ -25,7 +45,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 15 px;
 }
 a{
     text-decoration: none;
