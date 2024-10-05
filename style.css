@@ -11,7 +11,7 @@ body {
 header {
     background-color: #F5F5DC;
     color: #007f33;
-    padding: 10 px 0;
+    padding: 10 px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ header div{
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10 px;
 }
 
 nav ul li {
