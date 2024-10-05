@@ -1,0 +1,11 @@
+[debug] [2024-10-04T20:38:25.523Z] ----------------------------------------------------------------------
+[debug] [2024-10-04T20:38:25.528Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenevo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2024-10-04T20:38:25.528Z] CLI Version:   13.20.2
+[debug] [2024-10-04T20:38:25.528Z] Platform:      win32
+[debug] [2024-10-04T20:38:25.529Z] Node Version:  v20.17.0
+[debug] [2024-10-04T20:38:25.530Z] Time:          Sat Oct 05 2024 02:08:25 GMT+0530 (India Standard Time)
+[debug] [2024-10-04T20:38:25.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-04T20:38:25.536Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[error] 
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
